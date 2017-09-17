@@ -19,6 +19,9 @@
         <activity android:name = ".register">
 
         </activity>
+        <activity android:name=".api">
+
+        </activity>
     </application>
 
 </manifest>
