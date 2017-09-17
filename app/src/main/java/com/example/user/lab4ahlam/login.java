@@ -84,5 +84,11 @@ public class login extends AppCompatActivity {
         Intent redirect = new Intent(login.this, register.class);
         startActivity(redirect);
     }
+    public void trans(View v)
+    {
+        //This code redirects the from login page to the home page.
+        Intent redirect = new Intent(login.this,api.class);
+        startActivity(redirect);
+    }
 
 }
