@@ -78,7 +78,7 @@ public class login extends AppCompatActivity {
         }
     }
 
-    public void regi(View v)
+    public void register(View v)
     {
         //This code redirects the from login page to the home page.
         Intent redirect = new Intent(login.this, register.class);

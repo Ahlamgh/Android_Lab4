@@ -14,12 +14,12 @@ public class register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_regi);
     }
-    public void registeration(View v)
+    public void login(View v)
     {
         //This code redirects the from login page to the home page.
-        Intent redirect = new Intent(register.this, register.class);
+        Intent redirect = new Intent(register.this, api.class);
         startActivity(redirect);
     }
 
